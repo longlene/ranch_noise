@@ -1,0 +1,14 @@
+{application, ranch_noise, [
+    {description, "Noise Protocol transport adapter for Ranch"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        ranch
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/longlene/ranch_noise"}]}
+]}.
